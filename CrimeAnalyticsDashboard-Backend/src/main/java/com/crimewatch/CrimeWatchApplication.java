@@ -1,0 +1,12 @@
+package com.crimewatch;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CrimeWatchApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(CrimeWatchApplication.class, args);
+    }
+}
