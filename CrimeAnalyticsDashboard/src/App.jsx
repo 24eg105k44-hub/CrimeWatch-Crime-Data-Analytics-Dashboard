@@ -12,8 +12,8 @@ import {
   ResponsiveContainer, Tooltip, XAxis, YAxis
 } from 'recharts'
 
-const API_BASE_URL = 'http://localhost:8080/api/incidents'
-const TIPS_API_URL = 'http://localhost:8080/api/tips'
+const API_BASE_URL = 'https://crimewatch-backend-t8yo.onrender.com/api/incidents'
+const TIPS_API_URL = 'https://crimewatch-backend-t8yo.onrender.com/api/tips'
 
 const trendData = [
   { month: 'Jan', reported: 420, solved: 286 },
